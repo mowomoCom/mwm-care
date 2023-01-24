@@ -47,5 +47,12 @@ jQuery(window).load(function () {
 		tooltip.text(mwmpc_vars.copied_text);
 	});
 
+	/**
+	 * Reset tooltip text
+	 */
+	jQuery(document.body).on('mouseout', '.mwm_copy_value', function () {
+		var tooltip = jQuery(this).find('.mwm_copy_value__tooltip');
+		tooltip.text(mwmpc_vars.copy_text);
+	});
 
 });
