@@ -9,3 +9,4 @@
 // Load all includes
 require_once MWM_FRA_INC.'admin/class.mwm_dashboard.php';
 require_once MWM_FRA_INC.'schema/class.mwm_feed.php';
+require_once MWM_FRA_INC.'schema/class.mwm_notification.php';
